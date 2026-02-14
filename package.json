@@ -1,6 +1,20 @@
 {
   "name": "jasonhodulik.com",
-  "version": "0.1.0",
+  "description:": "The personal website of Jason Hodulik.",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jasonhodulik/jasonhodulik.com"
+  },
+  "author": {
+    "name": "Jason Hodulik",
+    "email": "jasonhodulik@gmail.com",
+    "url": "https://jasonhodulik.com/"
+  },
+  "bugs": {
+    "url": "https://github.com/jasonhodulik/jasonhodulik.com/issues"
+  },
+  "license": "UNLICENSED",
   "private": true,
   "scripts": {
     "dev": "next dev",
