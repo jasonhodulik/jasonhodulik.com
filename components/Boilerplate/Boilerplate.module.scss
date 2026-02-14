@@ -1,0 +1,12 @@
+.root {
+
+    margin: 6em;
+    color: var(--secondary-text-color);
+    text-align: center;
+    text-wrap: balance;
+
+    > p {
+        margin: 0.75em;
+    }
+
+}

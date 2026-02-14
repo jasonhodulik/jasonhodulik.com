@@ -1,0 +1,22 @@
+.root {
+
+    > hgroup {
+
+        > h1, > p {
+            font-size: 4em;
+            line-height: 1.125;
+        }
+
+        > h1 {
+            font-weight: 900;
+            margin-bottom: 0.25em;
+        }
+
+        > p {
+            margin-top: 0.25em;
+            font-weight: 300;
+        }
+
+    }
+
+}

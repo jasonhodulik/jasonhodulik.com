@@ -1,0 +1,25 @@
+.root {
+
+    margin: 12em 0;
+
+    > h2:first-child {
+
+        font-weight: 400;
+        margin: 8em 0;
+        font-size: 0.75em;
+        color: var(--secondary-text-color);
+        text-transform: uppercase;
+        letter-spacing: 0.125em;
+        display: flex;
+        align-items: center;
+
+        &::after {
+            content: "";
+            flex: 1;
+            border-bottom: 1px solid var(--decoration-color);
+            margin-left: 1em;
+        }
+
+    }
+
+}

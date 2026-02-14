@@ -1,0 +1,42 @@
+.root {
+
+    color: var(--secondary-text-color);
+    white-space: nowrap;
+
+    &::before {
+
+        content: "";
+        display: block;
+        width: 1em;
+        height: 1em;
+        position: relative;
+        top: 0.25em;
+        float: left;
+        padding: 0 0.375em 0 0;
+        background: var(--secondary-text-color);
+        mask-repeat: no-repeat;
+
+    }
+
+    &:is(a) {
+
+        text-decoration: none;
+
+        &:hover {
+
+            color: var(--link-color);
+
+            &::before {
+                background: var(--link-color);
+            }
+
+        }
+
+    }
+
+    &[data-channel="Location"]::before { mask-image: url(/images/location.svg); }
+    &[data-channel="Email"]::before { mask-image: url(/images/email.svg); }
+    &[data-channel="GitHub"]::before { mask-image: url(/images/github.svg); }
+    &[data-channel="LinkedIn"]::before { mask-image: url(/images/linkedin.svg); }
+
+}

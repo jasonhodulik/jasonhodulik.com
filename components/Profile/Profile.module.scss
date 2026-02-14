@@ -1,0 +1,13 @@
+.root {
+
+    margin: min(10vh, 12em) auto;
+    width: 80vw;
+    max-width: 60em;
+
+    @media print {
+        width: 100vw;
+        margin: 0;
+        padding: 0;
+    }
+
+}
