@@ -5,6 +5,7 @@ const basePath = base.pathname;
 
 const nextConfig: NextConfig = {
     reactCompiler: true,
+    output: "export",
     basePath: basePath === "/" ? "" : basePath
 };
 
