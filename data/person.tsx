@@ -13,8 +13,8 @@ const person: Person = {
         },
         {
             channel: ContactChannel.Email,
-            value: "jasonhodulik@gmail.com",
-            url: new URL("mailto:jasonhodulik@gmail.com")
+            value: "jason@jasonhodulik.com",
+            url: new URL("mailto:jason@jasonhodulik.com")
         },
         {
             channel: ContactChannel.GitHub,
