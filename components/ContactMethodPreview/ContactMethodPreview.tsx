@@ -1,8 +1,8 @@
-import type { ContactMethod } from "@/types/ContactMethod";
+import type ContactMethod from "@/types/ContactMethod";
 import ContactChannel from "@/types/ContactChannel";
 import classNames from "@/components/ContactMethodPreview/ContactMethodPreview.module.scss";
 
-type Props = {
+interface Props {
     contactMethod: ContactMethod;
 };
 

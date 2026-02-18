@@ -3,7 +3,7 @@ import Month from "@/types/Month";
 /**
  * A year and month.
  */
-export type YearMonth = {
+export default interface YearMonth {
 
     /**
      * The year.

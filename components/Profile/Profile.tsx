@@ -1,11 +1,11 @@
-import type { Person } from "@/types/Person";
+import type Person from "@/types/Person";
 import classNames from "@/components/Profile/Profile.module.scss";
 import Intro from "@/components/Intro/Intro";
 import ProfileSection from "@/components/ProfileSection/ProfileSection";
 import SkillGroupsList from "@/components/SkillGroupsList/SkillGroupsList";
 import ExperiencesList from "@/components/ExperiencesList/ExperiencesList";
 
-type Props = {
+interface Props {
     person: Person;
 };
 

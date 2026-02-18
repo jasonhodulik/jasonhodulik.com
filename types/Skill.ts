@@ -1,7 +1,7 @@
 /**
  * A skill.
  */
-export type Skill = {
+export default interface Skill {
 
     /**
      * The name of the skill.

@@ -1,8 +1,8 @@
-import type { Person } from "@/types/Person";
+import type Person from "@/types/Person";
 import classNames from "@/components/Intro/Intro.module.scss";
 import ContactMethodsList from "@/components/ContactMethodsList/ContactMethodsList";
 
-type Props = {
+interface Props {
     person: Person;
 };
 

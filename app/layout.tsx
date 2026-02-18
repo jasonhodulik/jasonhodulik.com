@@ -6,7 +6,7 @@ const notoSans = Noto_Sans({
     subsets: ["latin"]
 });
 
-type Props = {
+interface Props {
     children: React.ReactNode;
 }
 

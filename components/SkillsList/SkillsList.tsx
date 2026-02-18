@@ -1,9 +1,9 @@
-import { Skill } from "@/types/Skill";
+import type Skill from "@/types/Skill";
 import classNames from "@/components/SkillsList/SkillsList.module.scss";
 import SkillPreview from "@/components/SkillPreview/SkillPreview";
 
-type Props = {
-    skills: Skill[];
+interface Props {
+    skills: Array<Skill>;
 };
 
 export default function SkillsList({ skills }: Props) {

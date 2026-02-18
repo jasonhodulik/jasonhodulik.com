@@ -3,7 +3,7 @@ import ContactChannel from "@/types/ContactChannel";
 /**
  * A method of contacting a person.
  */
-export type ContactMethod = {
+export default interface ContactMethod {
 
     /**
      * The channel through which the person can be contacted.

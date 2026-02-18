@@ -1,7 +1,7 @@
-import type { Organization } from "@/types/Organization";
+import type Organization from "@/types/Organization";
 import classNames from "@/components/OrganizationPreview/OrganizationPreview.module.scss";
 
-type Props = {
+interface Props {
     organization: Organization;
 };
 

@@ -1,7 +1,7 @@
-import { Skill } from "@/types/Skill";
+import type Skill from "@/types/Skill";
 import classNames from "@/components/SkillPreview/SkillPreview.module.scss";
 
-type Props = {
+interface Props {
     skill: Skill;
 };
 

@@ -1,4 +1,4 @@
-import type { Person } from "@/types/Person";
+import type Person from "@/types/Person";
 import ContactChannel from "@/types/ContactChannel";
 import Month from "@/types/Month";
 

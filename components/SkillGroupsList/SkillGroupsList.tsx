@@ -1,9 +1,9 @@
-import type { SkillGroup } from "@/types/SkillGroup";
+import type SkillGroup from "@/types/SkillGroup";
 import classNames from "@/components/SkillGroupsList/SkillGroupsList.module.scss";
 import SkillGroupSummary from "@/components/SkillGroupSummary/SkillGroupSummary";
 
-type Props = {
-    skillGroups: SkillGroup[];
+interface Props {
+    skillGroups: Array<SkillGroup>;
 };
 
 export default function SkillGroupsList({ skillGroups }: Props) {

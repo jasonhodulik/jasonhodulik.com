@@ -1,6 +1,6 @@
 import classNames from "@/components/ProfileSection/ProfileSection.module.scss";
 
-type Props = {
+interface Props {
     name: string;
     children?: React.ReactNode;
 };

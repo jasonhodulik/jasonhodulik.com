@@ -1,10 +1,10 @@
-import type { Organization } from "@/types/Organization";
-import type { YearMonth } from "@/types/YearMonth";
+import type Organization from "@/types/Organization";
+import type YearMonth from "@/types/YearMonth";
 
 /**
  * An experience a person has or had at an organization.
  */
-export type Experience = {
+export default interface Experience {
 
     /**
      * The name of the experience.

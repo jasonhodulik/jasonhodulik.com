@@ -1,7 +1,7 @@
 import classNames from "@/components/MonthAbbreviation/MonthAbbreviation.module.scss";
 import Month from "@/types/Month";
 
-type Props = {
+interface Props {
     month: Month;
 };
 

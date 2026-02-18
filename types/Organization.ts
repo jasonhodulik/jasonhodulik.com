@@ -1,7 +1,7 @@
 /**
  * An organization.
  */
-export type Organization = {
+export default interface Organization {
 
     /**
      * The name of the organization.

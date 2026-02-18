@@ -1,8 +1,8 @@
-import type { YearMonth } from "@/types/YearMonth";
+import type YearMonth from "@/types/YearMonth";
 import classNames from "@/components/YearMonthRange/YearMonthRange.module.scss";
 import YearMonthAbbreviation from "@/components/YearMonthAbbreviation/YearMonthAbbreviation";
 
-type Props = {
+interface Props {
     start?: YearMonth;
     end?: YearMonth;
 };

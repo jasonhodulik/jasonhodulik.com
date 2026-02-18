@@ -1,9 +1,9 @@
-import type { ContactMethod } from "@/types/ContactMethod";
+import type ContactMethod from "@/types/ContactMethod";
 import classNames from "@/components/ContactMethodsList/ContactMethodsList.module.scss";
 import ContactMethodPreview from "@/components/ContactMethodPreview/ContactMethodPreview";
 
-type Props = {
-    contactMethods: ContactMethod[];
+interface Props{
+    contactMethods: Array<ContactMethod>;
 };
 
 export default function ContactMethodsList({ contactMethods }: Props) {

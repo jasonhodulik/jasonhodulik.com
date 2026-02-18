@@ -1,11 +1,11 @@
-import type { ContactMethod } from "@/types/ContactMethod";
-import type { SkillGroup } from "@/types/SkillGroup";
-import type { Experience } from "@/types/Experience";
+import type ContactMethod from "@/types/ContactMethod";
+import type SkillGroup from "@/types/SkillGroup";
+import type Experience from "@/types/Experience";
 
 /**
  * A person.
  */
-export type Person = {
+export default interface Person {
 
     /**
      * The name of the person.
@@ -25,16 +25,16 @@ export type Person = {
     /**
      * The methods of contacting the person.
      */
-    contactMethods: ContactMethod[];
+    contactMethods: Array<ContactMethod>;
 
     /**
      * The groups of skills the person has acquired.
      */
-    skillGroups: SkillGroup[];
+    skillGroups: Array<SkillGroup>;
 
     /**
      * The experiences the person has worked.
      */
-    experiences: Experience[];
+    experiences: Array<Experience>;
 
 };

@@ -1,9 +1,9 @@
-import { Skill } from "@/types/Skill";
+import type Skill from "@/types/Skill";
 
 /**
  * A group of skills.
  */
-export type SkillGroup = {
+export default interface SkillGroup {
 
     /**
      * A name categorizing the grouped skills.
@@ -18,6 +18,6 @@ export type SkillGroup = {
     /**
      * THe grouped skills.
      */
-    skills: Skill[];
+    skills: Array<Skill>;
 
 };

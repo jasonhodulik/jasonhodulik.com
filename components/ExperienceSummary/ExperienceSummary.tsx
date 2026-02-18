@@ -1,9 +1,9 @@
-import type { Experience } from "@/types/Experience";
+import type Experience from "@/types/Experience";
 import classNames from "@/components/ExperienceSummary/ExperienceSummary.module.scss";
 import OrganizationPreview from "@/components/OrganizationPreview/OrganizationPreview";
 import YearMonthRange from "@/components/YearMonthRange/YearMonthRange";
 
-type Props = {
+interface Props {
     experience: Experience;
 };
 
