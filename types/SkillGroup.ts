@@ -16,7 +16,7 @@ export default interface SkillGroup {
     description: React.ReactNode;
 
     /**
-     * THe grouped skills.
+     * The grouped skills.
      */
     skills: Array<Skill>;
 
