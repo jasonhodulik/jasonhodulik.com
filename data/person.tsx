@@ -33,6 +33,9 @@ const person: Person = {
             description: <>Full-stack application development across multiple languages.</>,
             skills: [
                 {
+                    name: <>TypeScript</>
+                },
+                {
                     name: <>JavaScript</>
                 },
                 {
@@ -40,9 +43,6 @@ const person: Person = {
                 },
                 {
                     name: <><abbr title="PHP: Hypertext Preprocessor">PHP</abbr></>
-                },
-                {
-                    name: <>TypeScript</>
                 },
                 {
                     name: <>Rust</>
@@ -57,16 +57,16 @@ const person: Person = {
             description: <>Frameworks and tools for user interfaces, <abbr title="Application Programming Interfaces">APIs</abbr>, and content management systems.</>,
             skills: [
                 {
-                    name: <>SwiftUI</>
+                    name: <>React</>
                 },
                 {
                     name: <>Next.js</>
                 },
                 {
-                    name: <>React</>
+                    name: <>Node.js</>
                 },
                 {
-                    name: <>Node.js</>
+                    name: <>SwiftUI</>
                 },
                 {
                     name: <>Laravel</>
@@ -79,9 +79,6 @@ const person: Person = {
                 },
                 {
                     name: <><abbr title="Syntactically Awesome Style Sheets">Sass</abbr></>
-                },
-                {
-                    name: <>WordPress</>
                 }
             ]
         },
@@ -111,13 +108,13 @@ const person: Person = {
             description: <>Cloud and dedicated infrastructure, <abbr title="Continuous Integration">CI</abbr>/<abbr title="Continuous Delivery">CD</abbr>, and system administration.</>,
             skills: [
                 {
+                    name: <><abbr title="Amazon Web Services">AWS</abbr></>
+                },
+                {
                     name: <>Docker</>
                 },
                 {
-                    name: <>GitHub Actions</>
-                },
-                {
-                    name: <><abbr title="Amazon Web Services">AWS</abbr></>
+                    name: <>Automated Testing</>
                 },
                 {
                     name: <>DigitalOcean</>
@@ -130,6 +127,9 @@ const person: Person = {
                 },
                 {
                     name: <>Git</>
+                },
+                {
+                    name: <>GitHub Actions</>
                 }
             ]
         },
@@ -182,7 +182,7 @@ const person: Person = {
                 year: 2023,
                 month: Month.May
             },
-            description: <>Built and launched <a href="https://coastermate.com/">Coastermate</a>, an iOS app for roller coaster enthusiasts, including its backend architecture, database, <abbr title="Representational State Transfer">REST</abbr> <abbr title="Application Programming Interface">API</abbr>, and administration tools.</>
+            description: <>Built and launched <a href="https://coastermate.com/">Coastermate</a>, a web service and iOS app for roller coaster enthusiasts, including its back end architecture, database, <abbr title="Representational State Transfer">REST</abbr> <abbr title="Application Programming Interface">API</abbr>, and administration tools.</>
         },
         {
             name: "Full-Stack Engineer",
@@ -199,7 +199,7 @@ const person: Person = {
                 year: 2022,
                 month: Month.September
             },
-            description: <>Architected and built a scalable multi-site ecommerce platform with a web app for designing custom signs; led a cross-functional engineering team; and improved <abbr title="Business Intelligence">BI</abbr>, <abbr title="Enterprise Resource Planning">ERP</abbr>, and <abbr title="Customer Relationship Management">CRM</abbr> integrations.</>
+            description: <>Architected and built a scalable multi-site e-commerce platform with a sign design web app; led a cross-functional engineering team; and improved <abbr title="Business Intelligence">BI</abbr>, <abbr title="Enterprise Resource Planning">ERP</abbr>, and <abbr title="Customer Relationship Management">CRM</abbr> integrations.</>
         },
         {
             name: "Front-End Engineer",
@@ -216,7 +216,7 @@ const person: Person = {
                 year: 2011,
                 month: Month.October
             },
-            description: <>Created ecommerce user interfaces, templates, landing pages, and emails in coordination with an offshore back-end development team.</>
+            description: <>Created e-commerce user interfaces, templates, landing pages, and emails using web standards and semantics.</>
         }
     ]
 };
