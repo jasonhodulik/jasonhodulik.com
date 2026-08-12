@@ -156,10 +156,10 @@ const person: Person = {
             description: <>Planning effective, easy-to-use, and accessible software.</>,
             skills: [
                 {
-                    name: <><abbr title="User Experience">UX</abbr> Design</>
+                    name: <>Documentation</>
                 },
                 {
-                    name: <><abbr title="User Interface">UI</abbr> Design</>
+                    name: <><abbr title="User Interface">UI</abbr>/<abbr title="User Experience">UX</abbr> Design</>
                 },
                 {
                     name: <>Conversion Rate Optimization</>
