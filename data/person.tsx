@@ -4,8 +4,8 @@ import Month from "@/types/Month";
 
 const person: Person = {
     name: "Jason Hodulik",
-    title: "Senior Full-Stack Engineer",
-    summary: "Jason Hodulik is a full-stack engineer with 20+ years of experience planning, designing, building, deploying, and improving web and mobile apps.",
+    title: "Software Engineer",
+    summary: "Jason Hodulik is a software engineer with 20+ years of experience planning, designing, building, deploying, and improving web and mobile apps.",
     contactMethods: [
         {
             channel: ContactChannel.Location,
