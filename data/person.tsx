@@ -4,7 +4,7 @@ import Month from "@/types/Month";
 
 const person: Person = {
     name: "Jason Hodulik",
-    summary: "Jason Hodulik is a technology leader wtih 20+ years of experience turning business needs into successful technology products, platforms, and operational improvements across engineering, design and data.",
+    summary: "Jason Hodulik is a technology leader with 20+ years of experience turning business needs into successful technology products, platforms, and operational improvements across engineering, design and data.",
     title: "Technology Leader",
     titleDescription: "Product, Engineering, and Delivery Leader with 20+ years of experience building software, leading technology initiatives, and identifying and translating business needs into successful products and platforms.",
     contactMethods: [
@@ -140,7 +140,7 @@ const person: Person = {
                     name: <>Operational Readiness</>
                 },
                 {
-                    name: <><abbr title="Key Perfomance Indicator">KPI</abbr> &amp; Success Metrics</>
+                    name: <><abbr title="Key Performance Indicators">KPIs</abbr> &amp; Success Metrics</>
                 },
                 {
                     name: <>Data &amp; Performance Metrics</>
@@ -173,7 +173,7 @@ const person: Person = {
                     name: <>Containerization &amp; Docker</>
                 },
                 {
-                    name: <>Web (TypeScript, JavaScript, React, Node.js, <abbr title="HyperText Markup Lanaguage">HTML</abbr>, <abbr title="Cascading Style Sheets">CSS</abbr>, <abbr title="PHP: Hypertext Preprocessor">PHP</abbr>, Laravel)</>
+                    name: <>Web (TypeScript, JavaScript, React, Node.js, <abbr title="HyperText Markup Language">HTML</abbr>, <abbr title="Cascading Style Sheets">CSS</abbr>, <abbr title="PHP: Hypertext Preprocessor">PHP</abbr>, Laravel)</>
                 },
                 {
                     name: <>Mobile (Swift, SwiftUI, iOS)</>
