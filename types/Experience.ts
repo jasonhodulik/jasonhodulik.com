@@ -12,11 +12,6 @@ export default interface Experience {
     name: string;
 
     /**
-     * The formal job title assigned during the experience.
-     */
-    title: React.ReactNode;
-
-    /**
      * The organization at which the experience occurred.
      */
     organization: Organization;

@@ -9,18 +9,11 @@
         }
 
         > h3 {
-
             font-weight: 700;
             font-size: 1em;
-
-            &::after {
-                content: " / ";
-                font-weight: 400;
-            }
-
         }
 
-        > p:not(:last-child)::after {
+        > p::before {
             content: " · ";
             color: var(--secondary-text-color);
         }

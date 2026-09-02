@@ -12,7 +12,6 @@ export default function ExperienceSummary({ experience }: Props) {
         <div className={classNames.root}>
             <hgroup>
                 <h3>{experience.name}</h3>
-                <p>{experience.title}</p>
                 <p><OrganizationPreview organization={experience.organization} /></p>
                 <p><YearMonthRange start={experience.start} end={experience.end} /></p>
             </hgroup>

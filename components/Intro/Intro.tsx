@@ -9,10 +9,7 @@ interface Props {
 export default function Intro({ person }: Props) {
     return (
         <header className={classNames.root}>
-            <hgroup>
-                <h1>{person.name}</h1>
-                <p>{person.title}</p>
-            </hgroup>
+            <h1>{person.name}</h1>
             <ContactMethodsList contactMethods={person.contactMethods} />
         </header>
     );

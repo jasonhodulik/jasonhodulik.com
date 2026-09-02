@@ -4,8 +4,9 @@ import Month from "@/types/Month";
 
 const person: Person = {
     name: "Jason Hodulik",
-    title: "Software Engineer",
-    summary: "Jason Hodulik is a software engineer with 20+ years of experience planning, designing, building, deploying, and improving web and mobile apps.",
+    summary: "Jason Hodulik is a technology leader wtih 20+ years of experience turning business needs into successful technology products, platforms, and operational improvements across engineering, design and data.",
+    title: "Technology Leader",
+    titleDescription: "Product, Engineering, and Delivery Leader with 20+ years of experience building software, leading technology initiatives, and identifying and translating business needs into successful products and platforms.",
     contactMethods: [
         {
             channel: ContactChannel.Location,
@@ -17,11 +18,6 @@ const person: Person = {
             url: new URL("mailto:jason@jasonhodulik.com")
         },
         {
-            channel: ContactChannel.GitHub,
-            value: "github.com/jasonhodulik",
-            url: new URL("https://github.com/jasonhodulik")
-        },
-        {
             channel: ContactChannel.LinkedIn,
             value: "linkedin.com/in/jasonhodulik",
             url: new URL("https://linkedin.com/in/jasonhodulik")
@@ -29,151 +25,174 @@ const person: Person = {
     ],
     skillGroups: [
         {
-            name: <>Programming</>,
-            description: <>Full-stack application development across multiple languages.</>,
+            name: <>Business &amp; Opportunity</>,
+            description: <>Understanding businesses from the inside: objectives, processes, customers, and people; working directly with stakeholders and leaders across the organization to identify problems, evaluate existing workflows, uncover opportunities, and determine where technology can create meaningful business value.</>,
             skills: [
                 {
-                    name: <>TypeScript</>
+                    name: <>Business &amp; Technology Strategy</>
                 },
                 {
-                    name: <>JavaScript</>
+                    name: <>Product Strategy &amp; Roadmapping</>
                 },
                 {
-                    name: <>Swift</>
+                    name: <>Requirements Analysis</>
                 },
                 {
-                    name: <><abbr title="PHP: Hypertext Preprocessor">PHP</abbr></>
+                    name: <>Customer &amp; User Needs</>
                 },
                 {
-                    name: <>Rust</>
+                    name: <>Process Analysis &amp; Improvement</>
                 },
                 {
-                    name: <>Object-Oriented Design Patterns</>
+                    name: <>Opportunity Identification</>
+                },
+                {
+                    name: <>Prioritization</>
+                },
+                {
+                    name: <>Stakeholder Communication</>
+                },
+                {
+                    name: <>Executive &amp; Cross-Functional Alignment</>
                 }
             ]
         },
         {
-            name: <>Platforms</>,
-            description: <>Frameworks and tools for user interfaces, <abbr title="Application Programming Interfaces">APIs</abbr>, and content management systems.</>,
+            name: <>Solution Design</>,
+            description: <>Translating business needs and opportunities into practical solutions that balance user needs, business objectives, technical constraints, and time to value; designing products and systems from both user and technical perspectives, separating <abbr title="Minimum Viable Products">MVPs</abbr> from future phases, and documenting solutions clearly to prepare for building and operation.</>,
             skills: [
                 {
-                    name: <>React</>
+                    name: <>Product &amp; Solution Design</>
                 },
                 {
-                    name: <>Next.js</>
+                    name: <><abbr title="User Experience">UX</abbr>/<abbr title="User Interface">UI</abbr> Design</>
                 },
                 {
-                    name: <>Node.js</>
+                    name: <>Technical Architecture</>
                 },
                 {
-                    name: <>SwiftUI</>
+                    name: <><abbr title="Application Programming Interface">API</abbr> Design &amp; OpenAPI</>
                 },
                 {
-                    name: <>Laravel</>
+                    name: <><abbr title="Minimum Viable Product">MVP</abbr> Definition &amp; Phased Delivery</>
                 },
                 {
-                    name: <><abbr title="HyperText Markup Language">HTML</abbr></>
+                    name: <>Prototyping &amp; <abbr title="Proofs of Concepts">POCs</abbr></>
                 },
                 {
-                    name: <><abbr title="Cascading Style Sheets">CSS</abbr></>
+                    name: <>Technical Documentation &amp; Confluence</>
                 },
                 {
-                    name: <><abbr title="Syntactically Awesome Style Sheets">Sass</abbr></>
+                    name: <>Requirements &amp; Specifications</>
+                },
+                {
+                    name: <><abbr title="Statements of Work">SOWs</abbr></>
                 }
             ]
         },
         {
-            name: <>Databases</>,
-            description: <>Design, development, administration, <abbr title="Extract, Transform, Load">ETL</abbr>, and reporting.</>,
+            name: <>Delivery &amp; Leadership</>,
+            description: <>Leading multidisciplinary teams from defined solutions to working products; establishing practical delivery processes, breaking complex initiatives into incremental deliverables, managing priorities and dependencies, and facilitating communication between engineering, design, product, and business stakeholders.</>,
             skills: [
                 {
-                    name: <><abbr title="Structured Query Language">SQL</abbr></>
+                    name: <>Cross-Functional Leadership</>
                 },
                 {
-                    name: <>MySQL</>
+                    name: <>Program &amp; Project Management</>
                 },
                 {
-                    name: <>PostgreSQL</>
+                    name: <>Agile / Scrum &amp; Jira</>
                 },
                 {
-                    name: <><abbr title="Microsoft SQL Server">MS SQL</abbr></>
+                    name: <>Backlog Management</>
                 },
                 {
-                    name: <>Redis</>
+                    name: <>User Stories &amp; Acceptance Criteria</>
+                },
+                {
+                    name: <>Dependency &amp; Risk Management</>
+                },
+                {
+                    name: <>Code Review &amp; Technical Review</>
+                },
+                {
+                    name: <>Blocker Removal</>
+                },
+                {
+                    name: <><abbr title="Continuous Integration">CI</abbr>/<abbr title="Continuous Delivery">CD</abbr> &amp; <abbr title="Development &amp; Operations">DevOps</abbr></>
                 }
             ]
         },
         {
-            name: <><abbr title="Development &amp; Operations">DevOps</abbr> &amp; Architecture</>,
-            description: <>Cloud and dedicated infrastructure, <abbr title="Continuous Integration">CI</abbr>/<abbr title="Continuous Delivery">CD</abbr>, and system administration.</>,
+            name: <>Launch &amp; Optimization</>,
+            description: <>Delivery as a means to an outcome and not just an endpoint, leading beta testing and releases, preparing users and organizations for change, monitoring products in production, analyzing performance and business results, and continuously adapting priorities based on what the data and users reveal.</>,
             skills: [
                 {
-                    name: <><abbr title="Amazon Web Services">AWS</abbr></>
+                    name: <>User Testing</>
                 },
                 {
-                    name: <>Docker</>
+                    name: <>Release Management</>
                 },
                 {
-                    name: <>Automated Testing</>
+                    name: <>Training &amp; Presentations</>
                 },
                 {
-                    name: <>DigitalOcean</>
+                    name: <>Operational Readiness</>
                 },
                 {
-                    name: <>Microsoft Azure</>
+                    name: <><abbr title="Key Perfomance Indicator">KPI</abbr> &amp; Success Metrics</>
                 },
                 {
-                    name: <>Rackspace</>
+                    name: <>Data &amp; Performance Metrics</>
                 },
                 {
-                    name: <>Git</>
-                },
-                {
-                    name: <>GitHub Actions</>
-                }
-            ]
-        },
-        {
-            name: <>Leadership</>,
-            description: <>Direction and project management for software teams.</>,
-            skills: [
-                {
-                    name: <>Agile Project Management</>
-                },
-                {
-                    name: <>Scrum Leadership</>
-                },
-                {
-                    name: <>Jira</>
-                },
-                {
-                    name: <>Code Review</>
-                }
-            ]
-        },
-        {
-            name: <>Design</>,
-            description: <>Planning effective, easy-to-use, and accessible software.</>,
-            skills: [
-                {
-                    name: <>Documentation</>
-                },
-                {
-                    name: <><abbr title="User Interface">UI</abbr>/<abbr title="User Experience">UX</abbr> Design</>
+                    name: <>A/B &amp; Multivariate Testing</>
                 },
                 {
                     name: <>Conversion Rate Optimization</>
                 },
                 {
-                    name: <><abbr title="Search Engine Optimization">SEO</abbr> Strategy</>
+                    name: <>Observability &amp; Production Monitoring</>
+                },
+                {
+                    name: <>Issue Triage</>
+                }
+            ]
+        },
+        {
+            name: <>Technical Foundation</>,
+            description: <>Deep technical experience providing the foundation for leadership decision-making throughout the entire product and technology lifecycle. More than 20 years of hands-on experience designing, building, and operating web applications, APIs, e-commerce platforms, mobile applications, databases, and cloud infrastructure supporting an ability to evaluate technical trade-offs, communicate effectively with engineers, and remain close enough to implementation to make informed decisions.</>,
+            skills: [
+                {
+                    name: <>Full-Stack Development</>
+                },
+                {
+                    name: <>Cloud Architecture &amp; <abbr title="Amazon Web Services">AWS</abbr></>
+                },
+                {
+                    name: <>Containerization &amp; Docker</>
+                },
+                {
+                    name: <>Web (TypeScript, JavaScript, React, Node.js, <abbr title="HyperText Markup Lanaguage">HTML</abbr>, <abbr title="Cascading Style Sheets">CSS</abbr>, <abbr title="PHP: Hypertext Preprocessor">PHP</abbr>, Laravel)</>
+                },
+                {
+                    name: <>Mobile (Swift, SwiftUI, iOS)</>
+                },
+                {
+                    name: <>Data &amp; Business Intelligence (<abbr title="Structured Query Language">SQL</abbr>, <abbr title="Not Only Structured Query Language">NoSQL</abbr>)</>
+                },
+                {
+                    name: <><abbr title="User Experience">UX</abbr>/<abbr title="User Interface">UI</abbr> Design &amp; Figma</>
+                },
+                {
+                    name: <><abbr title="Search Engine Optimization">SEO</abbr></>
                 }
             ]
         }
     ],
     experiences: [
         {
-            name: "Full-Stack Engineer",
-            title: <>Owner</>,
+            name: "Founder & Product Manager",
             organization: {
                 name: "Chiseled Pixel",
                 url: new URL("https://chiseledpixel.com/")
@@ -182,11 +201,10 @@ const person: Person = {
                 year: 2023,
                 month: Month.May
             },
-            description: <>Built and launched <a href="https://coastermate.com/">Coastermate</a>, a web service and iOS app for roller coaster enthusiasts, including its back end architecture, database, <abbr title="Representational State Transfer">REST</abbr> <abbr title="Application Programming Interface">API</abbr>, and administration tools.</>
+            description: <>Created and launched <a href="https://coastermate.com/">Coastermate</a>, a social web service and mobile application for roller coaster enthusiasts, owning the complete product lifecycle: customer research, business planning, product strategy, roadmap, <abbr title="User Experience">UX</abbr>/<abbr title="User Interface">UI</abbr>, technical architecture, engineering, beta testing, App Store launch, analytics, and ongoing operations. Designed and built the <abbr title="Representational State Transfer">REST</abbr> <abbr title="Application Programming Interface">API</abbr>, database, client application, administration interface, and supporting infrastructure, using user feedback and product metrics to guide continued development.</>
         },
         {
-            name: "Full-Stack Engineer",
-            title: <>Web Developer, Web Director, <abbr title="Chief Marketing Officer">CMO</abbr></>,
+            name: "Chief Marketing Officer",
             organization: {
                 name: "Brimar Industries",
                 url: new URL("https://www.brimar.com/")
@@ -199,11 +217,10 @@ const person: Person = {
                 year: 2022,
                 month: Month.September
             },
-            description: <>Architected and built a scalable multi-site e-commerce platform with a sign design web app; led a cross-functional engineering team; and improved <abbr title="Business Intelligence">BI</abbr>, <abbr title="Enterprise Resource Planning">ERP</abbr>, and <abbr title="Customer Relationship Management">CRM</abbr> integrations.</>
+            description: <>Progressed through increasingly broad technology, product, and business leadership roles before becoming <abbr title="Chief Marketing Officer">CMO</abbr>, ultimately leading product strategy and a cross-functional organization spanning software engineering, <abbr title="User Experience">UX</abbr>/<abbr title="User Interface">UI</abbr> design, product development, advertising, sales, and customer service. Owned the strategy and roadmap for a $20M annual e-commerce business with over 10,000 <abbr title="Stock Keeping Units">SKUs</abbr> and 500 daily orders, translating business strategy, customer needs, analytics, and operational requirements into technology initiatives and customer-facing products. Helped scale the business from less than $2M to approximately $20M in annual revenue while increasing e-commerce conversion rates from 2–3% to over 4%. Led major initiatives spanning e-commerce platform modernization, custom-product technology, business intelligence, infrastructure, mobile experiences, integrations, and Agile delivery.</>
         },
         {
-            name: "Front-End Engineer",
-            title: <>Web Designer, Art Director</>,
+            name: "Art Director",
             organization: {
                 name: "Hertz Furniture",
                 url: new URL("https://www.hertzfurniture.com/")
@@ -216,7 +233,7 @@ const person: Person = {
                 year: 2011,
                 month: Month.October
             },
-            description: <>Created e-commerce user interfaces, templates, landing pages, and emails using web standards and semantics.</>
+            description: <>Led web design and front-end engineering for a large e-commerce business, combining visual design, user experience, front-end development, and digital marketing. Directed a small team of designers and engineers while partnering with merchandising and marketing to improve customer experience, <abbr title="Search Engine Optimization">SEO</abbr>, and conversion. Designed and built core e-commerce experiences including navigation, category and product pages, cart and checkout, landing pages, responsive layouts, and email campaigns, while also contributing to experimentation and print/catalog production.</>
         }
     ]
 };

@@ -2,8 +2,8 @@
 
     list-style: none;
 
-    > li {
-        margin: 6em 0;
+    > li:not(first-child) {
+        margin: 4em 0;
     }
 
 }

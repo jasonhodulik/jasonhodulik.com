@@ -4,7 +4,6 @@
 enum ContactChannel {
     Location,
     Email,
-    GitHub,
     LinkedIn
 }
 

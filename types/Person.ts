@@ -18,6 +18,11 @@ export default interface Person {
     title: string;
 
     /**
+     * The description of the title of the person.
+     */
+    titleDescription: string;
+
+    /**
      * A summary of the person.
      */
     summary: string;
