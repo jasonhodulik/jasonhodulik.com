@@ -12,7 +12,7 @@ export default function YearMonthRange({ start, end }: Props) {
     const endNode = end !== undefined ? <YearMonthAbbreviation yearMonth={end} /> : null;
     let content = <></>;
     if (startNode !== null && endNode !== null) {
-        content = <>{startNode} — {endNode}</>;
+        content = <>{startNode} – {endNode}</>;
     } else if (startNode !== null) {
         content = <>Since {startNode}</>;
     } else if (endNode !== null) {
