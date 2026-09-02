@@ -161,7 +161,7 @@ const person: Person = {
         },
         {
             name: <>Technical Foundation</>,
-            description: <>Deep technical experience providing the foundation for leadership decision-making throughout the entire product and technology lifecycle. More than 20 years of hands-on experience designing, building, and operating web applications, APIs, e-commerce platforms, mobile applications, databases, and cloud infrastructure supporting an ability to evaluate technical trade-offs, communicate effectively with engineers, and remain close enough to implementation to make informed decisions.</>,
+            description: <>Deep technical experience providing the foundation for leadership and decision-making throughout the entire product and technology lifecycle. More than 20 years of hands-on experience designing, building, and operating web applications, APIs, e-commerce platforms, mobile applications, databases, and cloud infrastructure supporting an ability to evaluate technical trade-offs, communicate effectively with engineers, and remain close enough to implementation to make informed decisions.</>,
             skills: [
                 {
                     name: <>Full-Stack Development</>
