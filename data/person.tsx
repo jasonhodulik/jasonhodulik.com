@@ -50,7 +50,7 @@ const person: Person = {
                     name: <>Prioritization</>
                 },
                 {
-                    name: <>Stakeholder Communication</>
+                    name: <>Stakeholder Management</>
                 },
                 {
                     name: <>Executive &amp; Cross-Functional Alignment</>
